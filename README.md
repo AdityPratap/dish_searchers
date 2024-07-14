@@ -61,11 +61,3 @@ Project Structure
       urls.py: URL configurations.
       manage.py: Django management script.
       
-      
-      ![Screenshot 2024-07-15 005648](https://github.com/user-attachments/assets/03eca689-d77a-4922-856b-a4bb68b5bb79)
-
-
-
-
-      ![image](https://github.com/user-attachments/assets/1c02b4fb-7c30-4f56-82c9-6f49fa87d632)
-
