@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dish Search</title>
+</head>
+<body>
+    <h1>Search for Dishes</h1>
+    <form method="get" action="{% url 'search' %}">
+        <input type="text" name="q" value="{{ query }}" placeholder="Search dishes...">
+        <button type="submit">Search</button>
+    </form>
+    <h2>Results:</h2>
+    <ul>
+        {% for dish in results %}
+            <li>{{ dish.name }}</li>
+        {% empty %}
+            <li>No dishes found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
